@@ -1,4 +1,4 @@
-# My Resume
+# Developer
 1. First Name: **Pavel**, Last Name: **Pavlov** 
 2. Contact Info (pavel.pavlov92@gamail.com, phone *+375259696798*, [my projects](https://github.com/))
 3. **Description:**
