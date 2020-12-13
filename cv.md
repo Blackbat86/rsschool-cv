@@ -1,6 +1,6 @@
 # Developer JS
 1. First Name: **Pavel**, Last Name: **Pavlov** 
-2. Contact Info (pavel.pavlov92@gamail.com, phone *+375259696798*, [my projects](https://github.com/))
+2. Contact Info (pavel.pavlov92@gamail.com, phone *+375259696798*, [my projects GitHub](https://github.com/))
 3. **Description:**
 worked as a Front-End Developer with around 3 years of experience. Extensively worked developing
 Responsive Web Applications. Experience in developing web page effectively using HTML5 and CSS3 in making
