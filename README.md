@@ -1,1 +1,1 @@
-https://blackbat86.github.io/rsschool-cv/cv resume
+https://blackbat86.github.io/rsschool-cv/cv 
