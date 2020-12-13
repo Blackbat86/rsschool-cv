@@ -1,1 +1,1 @@
-# rsschool-cv
+https://blackbat86.github.io/rsschool-cv/
