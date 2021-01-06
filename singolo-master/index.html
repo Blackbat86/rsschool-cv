@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINGOLO</title>
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="home" class="page">
+    <header class="header">
+        <div class="header__content">
+            <div class="header__burger-menu">
+                <div id="burger" class="header__burger-button">
+                    <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 1.2C0 0.537259 0.537259 0 1.2 0H23.8C24.4627 0 25 0.537259 25 1.2C25 1.86274 24.4627 2.4 23.8 2.4H1.2C0.537259 2.4 0 1.86274 0 1.2ZM0 10C0 9.33726 0.537259 8.8 1.2 8.8H23.8C24.4627 8.8 25 9.33726 25 10C25 10.6627 24.4627 11.2 23.8 11.2H1.2C0.537259 11.2 0 10.6627 0 10ZM1.2 17.6C0.53726 17.6 0 18.1373 0 18.8C0 19.4627 0.537259 20 1.2 20H23.8C24.4627 20 25 19.4627 25 18.8C25 18.1373 24.4627 17.6 23.8 17.6H1.2Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div id="mobile-menu" class="header__mobile-menu header__mobile-menu_hidden mobile-menu ">
+                    <nav class="mobile-menu__navigation mobile-menu__navigation_hidden navigation">
+                        <h1 class="header__logo_mobile header__logo">SINGOLO<span class="header__accent">*</span></h1>
+                        <ul class="navigation__list-mobile">
+                            <li class="navigation__item-mobile"><a
+                                    class="link-mobile navigation__link-mobile  navigation__link-mobile_state_active link_home "
+                                    href="#">home</a></li>
+                            <li class="navigation__item-mobile"><a
+                                    class="link-mobile navigation__link-mobile  link_services"
+                                    href="#services">services</a></li>
+                            <li class="navigation__item-mobile"><a
+                                    class="link-mobile navigation__link-mobile  link_portfolio"
+                                    href="#portfolio">portfolio</a></li>
+                            <li class="navigation__item-mobile"><a
+                                    class="link-mobile navigation__link-mobile  link_about" href="#about">about</a></li>
+                            <li class="navigation__item-mobile"><a
+                                    class="link-mobile navigation__link-mobile link_contact" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-menu_cover"></div>
+                </div>
+
+            </div>
+
+
+            <h1 class="header__logo">SINGOLO<span class="header__accent">*</span></h1>
+            <nav class="navigation">
+                <ul class="navigation__list" id="menu">
+                    <li class="navigation__item">
+                        <a class="navigation__link navigation__link_state_active" href="#slider">home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#services">services</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#about">about</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="plug"></div>
+    <main id="main" class="main">
+
+        <section id="slider" class="slider slider_red">
+            <div id="slides" class="slider__content">
+                <div class="slider__arrow-controllers">
+                    <img id="arrow-prev" class="slider__arrow left" src="./assets/images/arrow-prev.png"
+                        alt="Arrow prev.">
+                    <img id="arrow-next" class="slider__arrow right" src="./assets/images/arrow-next.png"
+                        alt="Arrow next">
+                </div>
+                <div id="slide-red" class="slider__item slider__item_active">
+                    <div class="slider__item_front-slide front-slide">
+                        <img class="front-slide__phone-image_vertical" src="./assets/images/iphone-vertical.png"
+                            alt="IPhone">
+                        <div id="black-display-vertical" class="slider__black-display_vertical"></div>
+                        <div id="button_iphone-vertical" class="slider__iphone-button_vertical"></div>
+
+                        <img class="front-slide__phone-image_horizontal" src="./assets/images/iphone-horizontal.png"
+                            alt="IPhone">
+                        <div id="black-display-horizontal" class="slider__black-display_horizontal"></div>
+                        <div id="button_iphone-horizontal" class="slider__iphone-button_horizontal"></div>
+                    </div>
+                </div>
+
+                <div class="slider__item slider__item_next">
+                    <div class="slider__item_back-slide back-slide">
+                        <img src="./assets/images/back-slide-phone-box.png" class="back-slide__phone-box" alt="">
+                        <img id="back-phone-display" src="./assets/images/back-slide-phone-display.png"
+                            class="back-slide__phone-display" alt="">
+                        <img src="./assets/images/back-slide-phone-shadow.png" class="back-slide__phone-shadow" alt="">
+                        <img id="back-slide-button" src="./assets/images/back-slide-phone-button.png"
+                            class="phone-button back-slide__phone-button" alt="">
+                        <img src="./assets/images/back-slide-phone-bg.png" class="back-slide__phone-left" alt="">
+                        <img src="./assets/images/back-slide-phone-bg.png" class="back-slide__phone-right" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="services__content">
+                <h2 class="services__title">Our Services</h2>
+                <p class="services__subtitle">Fusce dapibus, tellus ac&nbsp;cursus commodo, tortor mauris
+                    condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+                    sem nec elit. Fusce dapibus, tellus ac&nbsp;cursus commodo, tortor mauris condimentum nibh.</p>
+                <div class="benefits">
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/custom.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">Custom Design</h2>
+                            <p class="benefits__text advantages__text_topic_services">Curabitur vestibulum
+                                eget mauris quis laoreet. Phasellus in&nbsp;quam laoreet, viverra lacus&nbsp;ut,
+                                ultrices velit.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/idea.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">Inovative Ideas</h2>
+                            <p class="benefits__text">Quisque luctus, quam eget molestie com&shy;modo,
+                                lacus purus cursus purus, nec rutrum tellus dolor id&nbsp;lorem.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/love.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">Love Is&nbsp;The Answer</h2>
+                            <p class="benefits__text">Nulla sed nunc et&nbsp;tortor luctus faucibus.
+                                Morbi at&nbsp;aliquet turpis, et&nbsp;consequat felis. Quisque condimentum.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/responsive.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">Responsive Layout</h2>
+                            <p class="benefits__text">Sed porttitor placerat rhoncus.
+                                In&nbsp;at&nbsp;nunc tellus. Maecenas blandit nunc ligula. Prae&shy;sent elit leo.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/support.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">24 / 7&nbsp;Support</h2>
+                            <p class="benefits__text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                                Nulla a&nbsp;sem erat. Pellen&shy;tesque egestas venenatis lorem.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__item">
+                        <img class="benefits__icon" src="./assets/images/star.png" alt="">
+                        <div class="benefits__info">
+                            <h2 class="benefits__title">Feel Like A&nbsp;Star</h2>
+                            <p class="benefits__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh.
+                                Fusce vitae aliquam tellus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio__content">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <p class="portfolio__subtitle">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                    lacinia odio sem nec elit.</p>
+
+                <div id="tabs_menu" class="portfolio__tabs">
+                    <button class="portfolio__tabs-item portfolio__tabs-item_active ">All</button>
+                    <button class="portfolio__tabs-item">Web Design</button>
+                    <button class="portfolio__tabs-item">Graphic Design</button>
+                    <button class="portfolio__tabs-item">Artwork</button>
+                </div>
+
+                <div id="projects" class="portfolio__photo-grid">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image1.png" alt="Ship">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image2.png" alt="Smiling girl">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image3.png" alt="City">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image4.png" alt="Robot">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image5.png" alt="Rabbits">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image6.png" alt="SDK">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image7.png" alt="Robots">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image8.png" alt="Birds">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image9.png" alt="Monster">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image10.png" alt="Cordons">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image11.png" alt="Angry Monster">
+                    <img class="portfolio__photo-grid-item" src="./assets/images/image12.png" alt="Shards of glass">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer__copyright">
+                <p>&copy; Copyright 2013</p>
+                <!--<span class="footer__copyright_decoration">by PSDchat.com</span>  -->
+            </div>
+            <div class="footer__social-icons">
+                <a class="footer__social-icons_icon" href="#"><svg class="social-icons__icon_facebook-svg" width="14px"
+                        height="14px" viewBox="0 0 50 90" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <path id=""
+                            d="M50,15.65L35.72,15.65C34.03,15.65 32.14,17.87 32.14,20.84L32.14,31.15L50,31.15L50,45.85L32.14,45.85L32.14,90L15.29,90L15.29,45.85L0,45.85L0,31.15L15.29,31.15L15.29,22.5C15.29,10.09 23.9,0 35.72,0L50,0L50,15.65Z"
+                            style="fill:rgb(102,109,137);fill-rule:nonzero;" />
+                    </svg></a>
+                <a class="footer__social-icons_icon" href="#"><svg class="social-icons__icon_google-plus-svg"
+                        width="14px" height="14px" viewBox="0 0 90 88" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <path id=""
+                            d="M4.75,21.94C4.75,29.41 7.25,34.8 12.17,37.94C15.527,39.95 19.377,40.989 23.29,40.94L24.69,40.94C24.385,44.524 25.438,48.095 27.64,50.94L27.47,50.94C21,50.89 0,52.23 0,69.52C0,87.1 19.31,88 23.18,88L24.45,88C29.583,88.012 34.658,86.917 39.33,84.79C47.07,81 51,74.49 51,65.36C51,56.54 45,51.29 40.65,47.45C37.98,45.11 35.65,43.09 35.65,41.12C35.65,39.15 37.33,37.62 39.46,35.71C42.91,32.63 46.15,28.25 46.15,19.96C46.15,12.67 45.21,7.78 39.39,4.68C40.646,4.333 41.932,4.106 43.23,4C46.38,3.56 51,3.07 51,0.5L51,0L28,0C27.78,0 4.75,0.86 4.75,21.94ZM41.87,67C42.31,74 36.29,79.22 27.26,79.88C18.23,80.54 10.54,76.43 10.1,69.4C9.975,65.821 11.516,62.379 14.27,60.09C17.449,57.322 21.461,55.689 25.67,55.45C26.19,55.45 26.67,55.39 27.21,55.39C35.71,55.39 41.46,60.38 41.87,67ZM35.87,17.12C38.12,25.05 34.72,33.35 29.29,34.88C28.664,35.052 28.019,35.139 27.37,35.14C22.37,35.14 17.47,30.14 15.64,23.14C14.615,19.682 14.699,15.988 15.88,12.58C17,9.41 19.09,7.23 21.69,6.5C22.316,6.328 22.961,6.241 23.61,6.24C29.62,6.24 33.48,8.72 35.87,17.13L35.87,17.12ZM74.61,34.41L74.61,19.41L65.11,19.41L65.11,34.41L50.11,34.41L50.11,43.91L65.11,43.91L65.11,58.91L74.61,58.91L74.61,43.91L89.61,43.91L89.61,34.41L74.61,34.41Z"
+                            style="fill:rgb(102,109,137);fill-rule:nonzero;" />
+                    </svg></a>
+                <a class="footer__social-icons_icon" href="#"><svg class="social-icons__icon_twitter-svg" width="14px"
+                        height="14px" viewBox="0 0 92 75" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <path id=""
+                            d="M92,8.85C88.558,10.388 84.903,11.399 81.16,11.85C85.103,9.496 88.055,5.782 89.46,1.41C85.753,3.609 81.698,5.161 77.47,6C73.902,2.215 68.925,0.067 63.724,0.067C53.361,0.067 44.834,8.594 44.834,18.957C44.834,20.375 44.994,21.788 45.31,23.17C30.137,22.415 15.98,15.24 6.4,3.45C1.426,12.028 4,23.135 12.24,28.65C9.245,28.564 6.315,27.754 3.7,26.29C3.695,26.37 3.695,26.45 3.7,26.53C3.72,35.464 10.075,43.222 18.83,45C16.052,45.754 13.137,45.864 10.31,45.32C12.762,53.004 19.876,58.31 27.94,58.47C21.256,63.716 12.997,66.563 4.5,66.55C2.996,66.551 1.493,66.461 0,66.28C8.626,71.831 18.672,74.779 28.93,74.77C63.65,74.77 82.64,46 82.64,21.06C82.64,20.25 82.64,19.43 82.58,18.62C86.278,15.951 89.468,12.642 92,8.85Z"
+                            style="fill:rgb(102,109,137);fill-rule:nonzero;" />
+                    </svg></a>
+                <a class="footer__social-icons_icon" href="#"><svg class="social-icons__icon_linkedin-svg" width="14px"
+                        height="14px" viewBox="0 0 90 89" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g id="">
+                            <path
+                                d="M20.38,9.62C20.38,14.94 16.45,19.24 10,19.24C3.92,19.24 0,14.94 0,9.62C0,4.3 4.05,0 10.25,0C16.45,0 20.25,4.18 20.38,9.62ZM0.51,88.74L0.51,26.84L19.75,26.84L19.75,88.74L0.51,88.74Z"
+                                style="fill:rgb(102,109,137);fill-rule:nonzero;" />
+                            <path
+                                d="M31.26,46.58C31.26,38.86 31.01,32.41 30.76,26.84L47.46,26.84L48.35,35.45L48.73,35.45C52.944,29.045 60.186,25.258 67.85,25.45C80.51,25.44 90,33.93 90,52.15L90,88.74L70.76,88.74L70.76,54.43C70.76,46.46 68,41 61,41C55.68,41 52.52,44.67 51.13,48.21C50.64,49.757 50.426,51.379 50.5,53L50.5,88.7L31.26,88.7L31.26,46.58Z"
+                                style="fill:rgb(102,109,137);fill-rule:nonzero;" />
+                        </g>
+                    </svg></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
