@@ -4,15 +4,16 @@
 
 .header {
 	text-align: center;
+	border-bottom: solid 3px #000000;
 }
 
 h1 {
-	margin-bottom: 0em;
+	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
 h2 {
-	margin-top: 0em; px
+	margin-top: 0px; 
 	font-size: 16px;
 	margin-bottom: 0px;
 }
@@ -42,7 +43,7 @@ h5 {
 	height: 200px;
 }
 
-.divblock {
+.information-block {
 	width: 800px;
 	background-color: white;
 	margin-left: auto;
@@ -104,12 +105,12 @@ a {
 }
 
 .name-skill {
-	font-size: 20;
 	margin-bottom: 10px;
 }
 
 .knowledge-languages{
 	display: flex;
+
 }
 
 .knowledge {
@@ -123,7 +124,7 @@ a {
 }
 
 section {
-	margin-bottom: 3em;
+	margin-bottom: 3px;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 30px;
@@ -143,4 +144,5 @@ article {
 .footer {
 	text-align: center;
 	font-size: 13px;
+	border-top: solid 3px #000000;
 }
